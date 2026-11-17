@@ -1,6 +1,6 @@
 {
   "name": "humanlike-writing",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "description": "Write and edit natural, specific prose. Removes formulaic AI wording, chatbot residue, and false profundity while preserving facts, quotes, and code.",
   "author": { "name": "ihmorol" },
   "homepage": "https://github.com/ihmorol/humanlike-writing",
