@@ -8,7 +8,7 @@ It's a writing-quality skill. It isn't an AI-detector bypass, and it never inven
 
 - `SKILL.md`: the workflow and strict prose rules.
 - `references/pattern-catalog.md`: 144 patterns, each with a rule, an example, a repair, and an evidence label.
-- `references/voice-and-audit.md`: matching your writing sample, the "clean but soulless" check, a self-audit pass, and 9 extra patterns.
+- `references/voice-and-audit.md`: matching your writing sample, the "clean but soulless" check, word choice from your own vocabulary, a self-audit pass, and 10 extra patterns.
 - `references/voice-and-context.md`: how the rules bend for academic writing, code, quotes, translations, and Wikipedia.
 - `scripts/lint_writing.py`: an optional checker (Python 3 stdlib only) for banned words, em dashes, rhythm, and chatbot residue.
 

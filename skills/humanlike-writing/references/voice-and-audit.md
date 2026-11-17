@@ -17,6 +17,22 @@ Then match it. Removing AI patterns is not enough; replace them with the writer'
 
 Never invent biography, experiences, or opinions for the writer. Calibration copies style, not facts.
 
+## Word choice from the user's vocabulary
+
+Models pick words from their own habits: buzzwords ("leverage", "streamline", "robust") and harder words than the reader needs ("facilitate", "commence", "ascertain"). People notice. The fix is to borrow words from the person you're writing for.
+
+1. **Build a word list from the user.** Read the user's messages in the current conversation. If the host gives you memory, a user profile, custom instructions, or earlier messages, read those too. Note the words they use for the things you'll write about ("fix" or "resolve", "app" or "platform", "money" or "budget", "folks" or "users").
+2. **Use their word when one exists.** If they said "bug", write "bug", not "defect" or "issue". If they said "make it faster", write "faster", not "optimize performance". Repeat their term rather than swapping in a synonym.
+3. **Otherwise, use the common word.** When the user has no word for a concept, pick the plainest word a typical reader would use: "use" not "utilize", "help" not "facilitate", "start" not "commence", "find out" not "ascertain", "show" not "showcase".
+4. **Match their level.** If the user writes casually and plainly, don't write above them. If they write technically, their technical terms are the right ones.
+
+Limits:
+
+- Only use history you were actually given. Don't claim to remember other chats when the host gave you no memory or history.
+- Keep correct technical, legal, and domain terms even when the user used a looser word. Precision beats mirroring.
+- Don't copy typos, misspellings, slurs, or grammar errors into formal or published output. Mirror word choice, not mistakes.
+- When the text is for someone else (a client email, a paper), weigh that audience's vocabulary too. The user's words still win when the user is the voice of the text.
+
 ## Clean but soulless
 
 A draft can pass every pattern check and still read like a press release. Signs:
@@ -62,3 +78,4 @@ These supplement the 144 entries in [pattern-catalog.md](pattern-catalog.md). ID
 | HV-07 | Uniform paragraph openers | Avoid starting consecutive paragraphs with the same connective or shape ("Additionally,", "In addition,", "Another key..."). | Three paragraphs each opening "Additionally," | Open with the subject of each paragraph. |
 | HV-08 | Overpolished closer | Drop the neat final line that restates the point with a flourish. | "In the end, it's all about finding the right balance." | End on the last concrete fact or decision. |
 | HV-09 | Sanded-off voice | Don't strip a writer's slang, humor, or quirks while "cleaning" their draft. | Writer's "this thing is a mess" becomes "this component presents challenges". | Keep "this thing is a mess" if the register allows it. |
+| HV-10 | Model vocabulary over user vocabulary | Use the words the user uses; fall back to the most common everyday word. | User asks to "fix the slow login"; reply says "optimize the authentication latency". | "Fix the slow login" and say what you changed. |
