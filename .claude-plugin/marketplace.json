@@ -1,0 +1,12 @@
+{
+  "name": "humanlike-writing",
+  "owner": { "name": "ihmorol" },
+  "plugins": [
+    {
+      "name": "humanlike-writing",
+      "source": "./",
+      "description": "Write and edit natural, specific prose without AI-style tells.",
+      "version": "1.1.0"
+    }
+  ]
+}
